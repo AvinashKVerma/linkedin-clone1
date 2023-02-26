@@ -23,7 +23,7 @@ allow read, write;
 8 - Go to project settings on the right side of Project Preview
 9 - Scroll down and click on the "</>" icon give a nickname for your project and tick on the "Also set up Firebase Hosting for this app" and then on "Register app" press "Next", "Next", "Continue to console"
 10 - Then scroll down to "SDK setup and configuration" and click on "config" copy the whole block of code and replace that with the code in the ./src/firebase.js in the "const firebaseConfic = {....}" only
-11 - Delete these files ".firebaserc", "firebase.json", ".firebase", "build"
+11 - Delete these files ".firebaserc", "firebase.json", ".firebase"
 
     Thats it to setup firebase
 
